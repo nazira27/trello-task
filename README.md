@@ -1,4 +1,4 @@
-# trello-task2
+# trello-task
 
 ## Project setup
 ```
