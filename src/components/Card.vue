@@ -3,9 +3,9 @@
     <h5 v-if="task.title">{{ task.title }}</h5>
     <p>{{ task.description }}</p>
     <div style="text-align: end">
-      <a class="delete-btn" href="javascript:void(0)" @click="deleteTask"
-        >Delete</a
-      >
+      <a class="delete-btn" href="javascript:void(0)" @click="deleteTask">
+        <img src="../assets/images/trash_icon.svg" height="32" />
+      </a>
     </div>
   </div>
 </template>

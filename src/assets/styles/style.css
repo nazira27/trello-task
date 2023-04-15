@@ -1,9 +1,16 @@
 * {
     font-family: Arial;
 }
-
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,9,121,0.9893207282913166) 0%, rgba(0,212,255,1) 100%);
+}
 .container {
     padding: 0 30px;
+}
+h1 {
+    color: white;
+
 }
 .row {
     display: flex;
@@ -17,7 +24,7 @@
     border-radius: 0.75rem;
     counter-reset: lines;
     overflow-x: auto;
-    background: #d9d9d9;
+    background: #f0f0f0;
     padding: 16px;
 }
 h3, h5 {
@@ -44,7 +51,7 @@ a.btn {
 }
 a.delete-btn {
     text-decoration: none;
-    background: red;
+    /*background: red;*/
     color: white;
     padding: 6px 8px;
     border-radius: 5px;
